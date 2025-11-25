@@ -13,9 +13,12 @@ Fully automated installation and LoRA training setup for Chroma1-HD on RTX 4090.
 
 ## ⚡ Quick Start (Installation)
 
-### Option 1: Direct Script Download (Recommended)
+### ☁️ Recommended Environment
 
-Run this single command in your terminal (e.g., on RunPod/Vast.ai):
+We highly recommend using **Vast.ai** or **RunPod**.
+This setup has been primarily tested on **Vast.ai** using the **ai-toolkit** template.
+
+To start the installation, simply run this command in the terminal:
 
 ```bash
 wget -q https://raw.githubusercontent.com/r0wer/Chroma-LoRA-AutoSetup/main/setup.sh -O setup.sh && bash setup.sh
