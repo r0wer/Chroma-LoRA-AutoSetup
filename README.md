@@ -21,7 +21,7 @@ This setup has been primarily tested on **Vast.ai** using the **ai-toolkit** tem
 To start the installation, simply run this command in the terminal:
 
 ```bash
-wget -q https://raw.githubusercontent.com/r0wer/Chroma-LoRA-AutoSetup/main/setup.sh -O setup.sh && bash setup.sh
+wget -q https://raw.githubusercontent.com/r0wer/Chroma-LoRA-AutoSetup/main/setup.sh -O setup.sh && sed -i 's/\r$//' setup.sh && bash setup.sh
 ```
 
 ### Option 2: Clone Repository
