@@ -54,7 +54,7 @@ accelerate launch --num_cpu_threads_per_process 2 \
   --lr_scheduler="constant_with_warmup" \
   --lr_warmup_steps=200 \
   --sdpa \
-  --max_train_steps=1500 \
+  --max_train_steps=2500 \
   --save_every_n_steps=250 \
   --model_prediction_type=raw \
   --mixed_precision="bf16" \
